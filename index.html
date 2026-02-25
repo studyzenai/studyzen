@@ -9,28 +9,15 @@
 
 <!-- CONFIGURATION -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script>
+<script>
 const APP_CONFIG = {
   supabase: {
     url: "https://odeouretnzawxpxrweep.supabase.co",
     anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9kZW91cmV0bnphd3hweHJ3ZWVwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIwMDI0NTEsImV4cCI6MjA4NzU3ODQ1MX0.BTNYqNsEx1vaR15sBkG2j8Bi8UEnIriuupslHsAu9b4"
-  },
-  geminiApiKey: "AIzaSyAExua3Bjd0S39135f-vbxv4fQhZtPXPTE",
-  geminiModel: "gemini-2.0-flash"
+  }
 };
-
-// Initialize Supabase **after defining APP_CONFIG**
-const supabase = supabase.createClient(
-  APP_CONFIG.supabase.url,
-  APP_CONFIG.supabase.anonKey
-);
-  </script>
-  <script>
-  const supabase = supabase.createClient(
-    "https://odeouretnzawxpxrweep.supabase.co",
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9kZW91cmV0bnphd3hweHJ3ZWVwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIwMDI0NTEsImV4cCI6MjA4NzU3ODQ1MX0.BTNYqNsEx1vaR15sBkG2j8Bi8UEnIriuupslHsAu9b4"
-  );
-  </script>
+</script>
+<script type="module">
 <style>
 /* ════════════════════════════════════════════════
    CSS VARIABLES & RESET
